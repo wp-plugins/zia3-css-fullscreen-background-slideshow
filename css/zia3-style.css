@@ -69,7 +69,6 @@ a{
 }
 .container{
 	position: relative;
-	text-align: center;
 }
 .clr{
 	clear: both;
@@ -186,9 +185,6 @@ p.zia3-pages a.current-page:hover{
 }
 /* Media Queries */
 @media screen and (max-width: 767px) {
-	.container > header{
-		text-align: center;
-	}
 	p.zia3-pages {
 		position: relative;
 		top: auto;
