@@ -74,7 +74,7 @@ HEREDOC;
     	$replacement .= "<li><span>Image " .$i ."</span><div><h3>" . $zia3_image_attributes['title'] . "</h3></div></li>"; 
     }
     
-    $replacement .= '<div class="zia3_enter_here">';
+    $replacement .= '<div id="zia3_enter_here">';
     
     if( $link || $link_title ){
     	$replacement .= '<p><a title="'.$link_title.'" style="color: rgb(255,255,255)" href="'.$link.'">'.$link_title.'</a></p>';
