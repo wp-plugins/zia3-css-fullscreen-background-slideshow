@@ -192,11 +192,11 @@ p.zia3-pages a.current-page:hover{
 	}
 }
 
-/* Enter Here Link*/
-#zia3_enter_here {
+//* Enter Here Link*/
+.zia3_enter_here {
     font-family:'BebasNeueRegular', sans-serif;
     font-size: 24px;
-    font-weight:normal;
+    font-weight: normal;
     color: rgb(255,153,204);
     text-shadow: none;
     position: absolute;
@@ -204,12 +204,18 @@ p.zia3-pages a.current-page:hover{
     left: 10px;
     text-transform: none;
     width: 160px;
-    height: 80px;
     text-align: center;
     padding: 10px;
     background: none repeat scroll 0% 0% rgba(8, 8, 8, 0.6);
     border: 1px solid #111;
     z-index: 99999;
-    line-height: 6px;
+    line-height: 20px;
 }
 
+.zia3_enter_here > p {
+	margin-bottom: 0.2em;
+}
+
+.zia3_enter_here > a {
+	margin-bottom: 0.2em;
+}
