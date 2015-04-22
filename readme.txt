@@ -1,6 +1,6 @@
 === Zia3 CSS Fullscreen Background Slideshow ===
 Contributors: zia3wp
-Donate link: http://zia3.com
+Donate link: http://plugins.zia3.com/donate/
 Tags: fullscreen slideshow, background slideshow, zia3, zia3 slideshow, css fullscreen slideshow, css slideshow, responsive, shortcode, landing page, fullscreen
 Requires at least: 3.5
 Tested up to: 4.2.2
@@ -67,13 +67,13 @@ List of parameters:
 1.   Upload the plugin zip file to the `/wp-content/plugins/` directory
 2.   Activate the plugin through the 'Plugins' menu in WordPress
 3.   Use the shortcode [zia3 id="xxx"]
-4.   Customize the slideshow using the parameters explained in <a href="https://wordpress.org/plugins/zia3-fullscreen-background-slider/">screenshot #4</a>
+4.   Customize the slideshow using the parameters explained in <a href="https://wordpress.org/plugins/zia3-css-fullscreen-background-slideshow/">screenshot #4</a>
 
 
 <h4>Using the Shortcode</h4>
 After you've added images to your slideshow and generated a shortcode you just need to copy the shortcode and paste it into the content of any page or post you want the slideshow to show up on.  If you want it to show up on every page you'll have to add some code to the header.php file in your theme.  See the codex's <a href="http://codex.wordpress.org/Function_Reference/do_shortcode">do_shortcode article</a> for more information on the matter.
 
-<a href="https://wordpress.org/plugins/zia3-fullscreen-background-slider/">See screenshot #3</a> for a description of the shortcode parameters.
+<a href="https://wordpress.org/plugins/zia3-css-fullscreen-background-slideshow/">See screenshot #3</a> for a description of the shortcode parameters.
 
 == Screenshots ==
 
