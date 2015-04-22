@@ -1,6 +1,6 @@
 === Zia3 CSS Fullscreen Background Slideshow ===
 Contributors: zia3wp
-Donate link: http://zia3.com
+Donate link: http://plugins.zia3.com/donate/
 Tags: fullscreen slideshow, background slideshow, zia3, zia3 slideshow, css fullscreen slideshow, css slideshow, responsive, shortcode, landing page, fullscreen
 Requires at least: 3.5
 Tested up to: 4.2.2
