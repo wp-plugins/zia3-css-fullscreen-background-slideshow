@@ -32,7 +32,7 @@ This plugin does one thing and one thing only, to keep it small yet fully functi
 
 <h4>About the Shortcode:</h4>
 
-There are 13 parameters total that you can use with this shortcode.  The **ID** being the only one that's absolutely **required**.
+There are 15 parameters total that you can use with this shortcode.  The **ID** being the only one that's absolutely **required**.
 
 List of parameters:
 
@@ -46,13 +46,15 @@ List of parameters:
 *   poster
 *   random
 *   title
-*   title_link
+*   link
 *   slogan
 *   slogan_link
+*   link_color
+*   slogan_link_color
 
 
 `
-[zia3 id="333" fade="2500" delay ="4500" overlay="http://mydomain.com/urloftheimage/" type="1-4" arrows="yes" autoplay="yes" poster="yes" random="yes" title="My Title" title_link="http://mydomain.com/" slogan="My Slogan" slogan_link="http://mydomain.com/"]
+[zia3 id="333" fade="2500" delay ="4500" overlay="http://mydomain.com/urloftheimage/" type="1-4" arrows="yes" autoplay="yes" poster="yes" random="yes" title="My Title" title_link="http://mydomain.com/" slogan="My Slogan" slogan_link="http://mydomain.com/" link_color="255,255,255" slogan_link_color="255,255,255"]
 `
 
 **NOTE FOR THEME DEVELOPERS:** This plugin makes use of both *wp_head()* and *wp_footer()* so if your theme is missing either you may experience issues using this plugin.
@@ -65,13 +67,13 @@ List of parameters:
 1.   Upload the plugin zip file to the `/wp-content/plugins/` directory
 2.   Activate the plugin through the 'Plugins' menu in WordPress
 3.   Use the shortcode [zia3 id="xxx"]
-4.   Customize the slideshow using the parameters explained in <a href="https://wordpress.org/plugins/zia3-fullscreen-background-slider/">screenshot #4</a>
+4.   Customize the slideshow using the parameters explained in <a href="https://wordpress.org/plugins/zia3-css-fullscreen-background-slideshow/">screenshot #4</a>
 
 
 <h4>Using the Shortcode</h4>
 After you've added images to your slideshow and generated a shortcode you just need to copy the shortcode and paste it into the content of any page or post you want the slideshow to show up on.  If you want it to show up on every page you'll have to add some code to the header.php file in your theme.  See the codex's <a href="http://codex.wordpress.org/Function_Reference/do_shortcode">do_shortcode article</a> for more information on the matter.
 
-<a href="https://wordpress.org/plugins/zia3-fullscreen-background-slider/">See screenshot #3</a> for a description of the shortcode parameters.
+<a href="https://wordpress.org/plugins/zia3-css-fullscreen-background-slideshow/">See screenshot #3</a> for a description of the shortcode parameters.
 
 == Screenshots ==
 
@@ -87,10 +89,11 @@ Just the usual, deactivate plugin, replace files, activate.
 
 == Changelog ==
 
+1.1 Added link and slogan color support.
 
-<h4>Versions 1.0 </h4>
+<h4>Versions 1.1 </h4>
 
-
-*   Initial Release
+*   1.1 Link Color Support
+*   1.0 Initial Release
 
 
