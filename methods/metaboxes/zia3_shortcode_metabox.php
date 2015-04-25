@@ -9,11 +9,11 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 	if ( !isset( $genShortcode ) || empty( $genShortcode ) ){
 		echo '<form><input type="button" class="button" name="zia3_shortcodeg_button" id="zia3_shortcodeg_button" value="Generate Your Own Shortcode" /><br><br>';
-		echo '<div id="example_shortcode">Example Shortcode: <input type="text" spellcheck="false" onclick="this.focus();this.select()" readonly="readonly" style="width:650px;max-width:100%" value="[zia3 id='. $id .' fade="3000" delay="4000" overlay="http://mydomain.com/urlofimage" type="1" arrows="no" autoplay="yes" poster="no" random="no" title="My Title" title_link="http://mydomain.com/" slogan="My Slogan" slogan_link="http://mydomain.com/" link_color="255,255,255" slogan_link_color="255,255,255" ]"</input></div>';
+		echo '<div id="example_shortcode">Example Shortcode: <input type="text" spellcheck="false" onclick="this.focus();this.select()" readonly="readonly" style="width:650px;max-width:100%" value="[zia3 id=\''. $id .'\' fade=\'3000\' delay=\'4000\' overlay=\'http://mydomain.com/urlofimage\' type=\'1\' arrows=\'no\' autoplay=\'yes\' poster=\'no\' random=\'no\' title=\'My Title\' title_link=\'http://mydomain.com/\' slogan=\'My Slogan\' slogan_link=\'http://mydomain.com/\' link_color=\'255,255,255\' slogan_link_color=\'255,255,255\' ]"></div>';
 	}
 	else{
 		echo '<form><input type="button" class="button" name="zia3_shortcodeg_button" id="zia3_shortcodeg_button" value="Generate a New Shortcode" /><br><br>';
-		echo "<div id='example_shortcode'>Your Custom Shortcode: <input type='text' spellcheck='false' onclick='this.focus();this.select()' readonly='readonly' style='width:650px;max-width:100%' value='" . $genShortcode ."'</input></div>";}
+		echo "<div id='example_shortcode'>Your Custom Shortcode: <input type='text' spellcheck='false' onclick='this.focus();this.select()' readonly='readonly' style='width:650px;max-width:100%' value='" . $genShortcode ."'></div>";}
 ?>
 
 <div id="zia3-shortcode-generator">
