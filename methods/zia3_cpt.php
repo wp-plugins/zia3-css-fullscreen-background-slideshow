@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 	'name' => __( 'Zia3 Slideshows' ),
 	'singular_name' => __( 'Slideshow' ),
 	'menu_name' => __( 'Zia3 Sliders' ),
-	'all_items' => __( 'View Slideshows' ),
+	'all_items' => __( 'All Slideshows' ),
 	'add_new' => _x('Add Slideshow', 'Slideshow'),
 	'add_new_item' => __('New Slideshow'),
 	'edit_item' => __('Edit Slideshow'),

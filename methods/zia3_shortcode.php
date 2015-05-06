@@ -107,8 +107,6 @@ HEREDOC;
 HEREDOC;
     }
 
-
-
     if($autoplay == "no"){
           $replacement .= " ";
       }
