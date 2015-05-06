@@ -4,7 +4,7 @@ Donate link: http://plugins.zia3.com/donate/
 Tags: fullscreen slideshow, background slideshow, zia3, zia3 slideshow, css fullscreen slideshow, css slideshow, responsive, shortcode, landing page, fullscreen
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
