@@ -193,7 +193,7 @@ p.zia3-pages a.current-page:hover{
 }
 
 /* Enter Here Link*/
-#zia3_enter_here {
+#zia3_cfbs_enter_here {
     font-family:'BebasNeueRegular', sans-serif;
     font-size: 24px;
     font-weight: normal;
@@ -212,10 +212,10 @@ p.zia3-pages a.current-page:hover{
     line-height: 20px;
 }
 
-#zia3_enter_here > p {
+#zia3_cfbs_enter_here > p {
 	margin-bottom: 0.2em;
 }
 
-#zia3_enter_here > a {
+#zia3_cfbs_enter_here > a {
 	margin-bottom: 0.2em;
 }
