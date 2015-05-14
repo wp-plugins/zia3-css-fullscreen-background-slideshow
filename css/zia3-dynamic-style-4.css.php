@@ -62,6 +62,9 @@
     top: 0px;
     left: 0px;
     color: transparent;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-repeat: none;
 	background-position: center center;
