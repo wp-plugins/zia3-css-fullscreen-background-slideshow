@@ -61,8 +61,10 @@
     left: 0px;
     color: transparent;
     background-size: cover;
-    background-position: 50% 50%;
     background-repeat: none;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
     opacity: 0;
     z-index: 0;
 	-webkit-backface-visibility: hidden;
